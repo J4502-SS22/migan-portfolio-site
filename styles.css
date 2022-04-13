@@ -20,4 +20,40 @@ footer {
   padding: 1rem;
 }
 
+.navcontainer nav {
+  background: #56A3A6;
+  display: grid;
+}
+.navcontainer ul {
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #56A3A6;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.navcontainer li {
+  text-decoration: none;
+  list-style-type: none;
+  margin: 5px;
+  padding: 5px;
+}
+.navcontainer a {
+  text-decoration: none;
+  list-style-type: none;
+  font-style:normal;
+  text-transform: inherit;
+  color: #000000;
+  font-weight: 400;
+  font-size: 1.5em;
+}
+.navcontainer a:hover {
+  color: #FEEFDD;
+}
+
+.menu_trigger {
+  display: flex;
 }

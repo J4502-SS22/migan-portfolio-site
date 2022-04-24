@@ -8,9 +8,38 @@ body {
   background-color: #DBDFF7;
 }
 
-section {
-  margin: 4rem auto;
+.topnav {
+  overflow: hidden;
+  background-color: #FFFFFF;
+  width: 100%;
+  box-sizing: border-box;
+
+}
+
+.topnav a {
+  float: left;
   display: block;
+  color: #8493F0;
+  text-align: center;
+  padding: 15px 85px;
+  text-decoration: none;
+  font-size: 17px;
+  width: 33.33%;
+  box-sizing: border-box;
+}
+
+.topnav a:hover {
+  background-color: #000000;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #8493F0;
+  color: black;
+}
+
+.topnav .icon {
+  display: none;
 }
 
 footer {
@@ -19,44 +48,6 @@ footer {
   text-align:center;
   margin-top: 1rem;
   padding: 1rem;
-}
-
-.navcontainer nav {
-  background: #FFFFFF;
-  display: grid;
-}
-.navcontainer ul {
-    display: flex;
-    list-style-type: none;
-    text-align: center;
-    flex-direction: row;
-    justify-content: space-around;
-    background-color: #FFFFFF;
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
-}
-.navcontainer li {
-  text-decoration: none;
-  list-style-type: none;
-  margin: 5px;
-  padding: 5px;
-}
-.navcontainer a {
-  text-decoration: none;
-  list-style-type: none;
-  font-style:normal;
-  text-transform: inherit;
-  color: #8493F0;
-  font-weight: 400;
-  font-size: 1.5em;
-}
-.navcontainer a:hover {
-  color: #000000;
-}
-
-.menu_trigger {
-  display: flex;
 }
 
 @media screen and (max-width: 600px) {

@@ -14,15 +14,15 @@ section {
 }
 
 footer {
-  background: #F7F3DB;
-  color: #ffffff;
+  background: #FFFFFF;
+  color: #DBDFF7;
   text-align:center;
   margin-top: 1rem;
   padding: 1rem;
 }
 
 .navcontainer nav {
-  background: #F7F3DB;
+  background: #FFFFFF;
   display: grid;
 }
 .navcontainer ul {
@@ -31,7 +31,7 @@ footer {
     text-align: center;
     flex-direction: row;
     justify-content: space-around;
-    background-color: #F7F3DB;
+    background-color: #FFFFFF;
     width: 100%;
     margin: 0px;
     padding: 0px;
@@ -47,12 +47,12 @@ footer {
   list-style-type: none;
   font-style:normal;
   text-transform: inherit;
-  color: #000000;
+  color: #DBDFF7;
   font-weight: 400;
   font-size: 1.5em;
 }
 .navcontainer a:hover {
-  color: #FEEFDD;
+  color: #000000;
 }
 
 .menu_trigger {

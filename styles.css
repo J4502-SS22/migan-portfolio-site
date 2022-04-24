@@ -5,7 +5,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background-color: #B9C2F5;
+  background-color: #DBDFF7;
 }
 
 section {
@@ -14,7 +14,7 @@ section {
 }
 
 footer {
-  background: #2D5D6C;
+  background: #F7F3DB;
   color: #ffffff;
   text-align:center;
   margin-top: 1rem;
@@ -22,7 +22,7 @@ footer {
 }
 
 .navcontainer nav {
-  background: #56A3A6;
+  background: #F7F3DB;
   display: grid;
 }
 .navcontainer ul {
@@ -31,7 +31,7 @@ footer {
     text-align: center;
     flex-direction: row;
     justify-content: space-around;
-    background-color: #56A3A6;
+    background-color: #F7F3DB;
     width: 100%;
     margin: 0px;
     padding: 0px;
